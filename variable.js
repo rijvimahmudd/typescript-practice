@@ -1,14 +1,13 @@
 "use strict";
-exports.__esModule = true;
 // String  
-var greetings = "hello rijvi";
+let greetings = "hello rijvi";
 greetings.toLowerCase();
 // greetings = 6;  not possible 
 console.log(greetings);
 // Number 
-var myNum = 6; //automatically inferred as number
-var userId = 334455;
+let myNum = 6; //automatically inferred as number
+let userId = 334455;
 userId.toString();
 console.log(userId);
 // boolean 
-var isLoggedIn = false;
+let isLoggedIn = false;

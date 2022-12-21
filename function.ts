@@ -1,8 +1,6 @@
 function sum (num:number):number{
     return num + 2;
 }
-
-
 let a = sum(2);
 
 console.log(a);
@@ -58,5 +56,3 @@ function consoleError(errmsg: string):void{
 function handleError(errmsg: string):never{
     throw new Error(errmsg);
 }
-
-export {};

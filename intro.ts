@@ -1,4 +1,3 @@
-export{};
 let user = {
     name: "Rijvi",
     email: "rijvimahmudd@gmail.com"

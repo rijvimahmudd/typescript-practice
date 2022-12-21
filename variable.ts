@@ -19,8 +19,3 @@ console.log(userId);
 
 let isLoggedIn: boolean = false;
 
-
-
-
-
-export{};

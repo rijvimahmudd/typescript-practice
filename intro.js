@@ -1,6 +1,5 @@
 "use strict";
-exports.__esModule = true;
-var user = {
+let user = {
     name: "Rijvi",
     email: "rijvimahmudd@gmail.com"
 };

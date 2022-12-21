@@ -4,9 +4,11 @@ const User = {
     isActive: true
 };
 
-
-function createUser({name:string, isPaid:boolean}){
-
+function createUser({name:string, isPaid:boolean}:any):{name:string, isPaid:boolean}{
+    return {
+        name :"",
+        isPaid : false,
+    }
 };
 
 let newUser = {name:"rijvi", isPaid:false, email : "r@r.com"};
@@ -22,17 +24,15 @@ function createCourse():{name:string, price:number}{
     };
 };
 
-// alias
-type bool = boolean;
-
-type User={
-    name: string;
-    email?: string; //optional
-    isActive: bool;
-}
+createCourse();
 
 // type Mystring = string;
-
+type bool = boolean;
+type User = {
+    name: string;
+    email?: string;
+    isActive: bool;
+};
 function createUserTwo(user:User):User{
     return {name: "", email:"", isActive:false};
 }
@@ -74,6 +74,3 @@ myUser.email = "r@rr.com";
 
 // }
 
-
-
-export {};
